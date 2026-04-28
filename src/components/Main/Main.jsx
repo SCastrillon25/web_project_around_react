@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Profile } from "../Profile/Profile";
+import { Profile } from "../Profile/Profile.jsx";
 import { NewCard } from "./Components/Popup/Form/NewCard/NewCard.jsx";
 import { EditProfile } from "./Components/Popup/Form/EditProfile/EditProfile.jsx";
 import { EditAvatar } from "./Components/Popup/Form/EditAvatar/EditAvatar.jsx";
-import { Modal } from "./Components/Modal";
+import { Modal } from "./Components/Modal.jsx";
 import { Card } from "./Components/Card/Card.jsx";
 import { ModalImage } from "./Components/Popup/Form/ModalImage/ModalImage.jsx";
 import imageProfile from '../../assets/profile-img.jpg';
