@@ -42,7 +42,7 @@
    border: none;
    right: calc((100vw - 430px - 70px)/2);
    cursor: pointer;
-   background-image: url(../../../assets/Close-Icon.svg);
+   background-image: url(../../../assets/close-icon.svg);
    background-size: cover;
    background-position: center;
    position: absolute;

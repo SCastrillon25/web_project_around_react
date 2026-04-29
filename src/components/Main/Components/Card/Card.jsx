@@ -1,3 +1,5 @@
+import iconLike from '../../../../assets/like-icon.svg';
+import iconLikeActive from '../../../../assets/icon-like-black.svg';
 import './Card.css';
 
 function Card(props) {
@@ -17,7 +19,7 @@ function Card(props) {
                     aria-label="Like card"
                     className="card__button-like" 
                     type="button">
-                    {/* {isLiked ? "Liked" : "Like"} */}
+                    <img src={isLiked ? iconLikeActive : iconLike} alt={isLiked ? "Liked" : "Like"} />
                 </button>
             </div>
         </li>

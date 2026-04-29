@@ -12,7 +12,7 @@ import "./Main.css";
 
 const cards = [
   {
-    isLiked: false,
+    isLiked: true,
     _id: '5d1f0611d321eb4bdcd707dd',
     name: 'Yosemite Valley',
     link: 'https://practicum-content.s3.us-west-1.amazonaws.com/web-code/moved_yosemite.jpg',
@@ -36,8 +36,7 @@ function Main() {
 
         const EditProfileModal = { title: "Editar perfil", children: <EditProfile /> };        
         const NewCardModal = { title: "Nuevo lugar", children: <NewCard /> };
-        const EditAvatarModal = { title: "Cambiar foto de perfil", children: <EditAvatar /> };
-        // const ImageModal = { title: "", children: <ModalImage /> };      
+        const EditAvatarModal = { title: "Cambiar foto de perfil", children: <EditAvatar /> };     
         // const DeleteCardModal = { title: "¿Estás seguro?", children: <DeleteCard /> };
 
         function handleOpenModal(modalData) {

@@ -58,10 +58,10 @@
  display: inline;
  position: absolute;
  right: 18px;
- background-image: url(../../../../assets/icon-like.svg);
  width: 21px;
  height: 18px;
  border: none;
+ background: transparent;
 }
 
 .card__button-like:hover {
@@ -73,7 +73,6 @@
    display: inline;
    position: absolute;
    right: 18px;
-   background-image: url(../../../../assets/icon-like-black.svg);
    width: 21px;
    height: 18px;
    border: none;
