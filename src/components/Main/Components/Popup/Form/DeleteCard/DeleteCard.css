@@ -1,0 +1,59 @@
+.modal__container {
+    width: 430px;
+    position: fixed;
+}
+
+.modal-delete-card {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.modal__title {
+    width: auto;
+    height: 23px;
+    font-size: 24px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 1);
+    margin: 34px 36px;
+    font-family: "Inter", sans-serif;
+}
+
+.modal-delete__submit {
+    width: 358px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 4px;
+}   
+
+.modal-delete__submit:hover {
+    opacity: 80%;
+}
+
+@media (max-width:619px) {
+   .modal__container {
+        width: 300px;
+   }
+
+   .modal-delete__submit {
+   width: 238px;
+   height: 46px;
+   margin:16px 0 25px 0;
+   }
+
+      .modal__title_delete {
+      margin: 25px 0 76px 22px;
+   }
+}

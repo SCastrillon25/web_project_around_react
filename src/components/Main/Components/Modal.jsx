@@ -11,7 +11,7 @@ function Modal(props) {
                     className="modal__button-close" 
                     onClick={onClose}>
                 </button>
-                {title && <h4 className="modal__title">{title}</h4>}
+                {title && <h4 className="modal__title modal__title_delete">{title}</h4>}
                 {children}
             </div>
         </div>
