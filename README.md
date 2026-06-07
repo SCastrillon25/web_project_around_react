@@ -12,7 +12,8 @@ Esta aplicación simula un perfil de usuario donde es posible visualizar tarjeta
 * Boton de eliminación de tarjetas
 * Diseño responsive
 * Estructura basada en componentes reutilizables
-* Manejo de estado con Hooks (`useState`)
+* Manejo de con Hooks (`useState, useEfect, useContext, useRef`)
+* Peticiones API
 
 ## 🛠 Tecnologías utilizadas
 
