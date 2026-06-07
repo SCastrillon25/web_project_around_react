@@ -1,5 +1,5 @@
 import React from "react";
-import { CurrentUserContext } from "../../contexts/CurrentUserContext.jsx";
+import { CurrentUserContext } from "../../contexts/CurrentUserContext.js";
 import imageProfile from '../../assets/profile-img.jpg';
 import '../Profile/Profile.css';
 

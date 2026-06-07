@@ -1,5 +1,5 @@
 import {useRef, useContext} from 'react';
-import { CurrentUserContext } from '../../../../../../contexts/CurrentUserContext.jsx';
+import { CurrentUserContext } from '../../../../../../contexts/CurrentUserContext.js';
 import "./EditAvatar.css";
 
 function EditAvatar() {
