@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { api } from "../../src/utils/api.jsx";
-import { CurrentUserContext } from "../context/CurrentUserContext.jsx";
+import { CurrentUserContext } from "../contexts/CurrentUserContext.jsx";
 import { Header } from "./Header/Header.jsx";
 import { Profile } from "./Profile/Profile.jsx";
 import { Main } from "./Main/Main.jsx";

@@ -8,7 +8,7 @@
     import { ModalImage } from "./Components/Popup/Form/ModalImage/ModalImage.jsx";
     import { DeleteCard } from "./Components/Popup/Form/DeleteCard/DeleteCard.jsx";
     import { api } from "../../../src/utils/api.jsx";
-    import { CurrentUserContext } from "../../context/CurrentUserContext.jsx";
+    import { CurrentUserContext } from "../../contexts/CurrentUserContext.jsx";
     import imageProfile from '../../assets/profile-img.jpg';
     import "./Main.css";
 

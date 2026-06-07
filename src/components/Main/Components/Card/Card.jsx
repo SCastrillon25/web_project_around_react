@@ -1,7 +1,7 @@
 import iconLike from '../../../../assets/like-icon.svg';
 import iconLikeActive from '../../../../assets/icon-like-black.svg';
 import { useContext } from 'react';
-import { CurrentUserContext } from '../../../../context/CurrentUserContext.jsx';
+import { CurrentUserContext } from '../../../../contexts/CurrentUserContext.jsx';
 import './Card.css';
 
 
