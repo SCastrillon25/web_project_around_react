@@ -1,6 +1,6 @@
-import './Modal.css';
+import './Popup.css';
 
-function Modal(props) {
+function Popup(props) {
     const { onClose, title, children } = props;
 
     return (
@@ -18,4 +18,4 @@ function Modal(props) {
     );
 };
 
-export { Modal }
+export { Popup }

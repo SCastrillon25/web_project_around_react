@@ -3,9 +3,9 @@
     import { NewCard } from "./Components/Popup/Form/NewCard/NewCard.jsx";
     import { EditProfile } from "./Components/Popup/Form/EditProfile/EditProfile.jsx";
     import { EditAvatar } from "./Components/Popup/Form/EditAvatar/EditAvatar.jsx";
-    import { Modal } from "./Components/Modal.jsx";
+    import { Popup } from "./Components/Popup.jsx";
     import { Card } from "./Components/Card/Card.jsx";
-    import { ModalImage } from "./Components/Popup/Form/ModalImage/ModalImage.jsx";
+    import { ImagePopup } from "./Components/Popup/Form/ImagePopup/ImagePopup.jsx";
     import { DeleteCard } from "./Components/Popup/Form/DeleteCard/DeleteCard.jsx";
     import { api } from "../../../src/utils/api.jsx";
     import { CurrentUserContext } from "../../contexts/CurrentUserContext.js";
@@ -35,7 +35,7 @@
                         handleOpenModal(EditProfileModal)  
                                               
                     }
-                    handleOpenImage={() => handleOpenModal({ children: <ModalImage link={imageProfile} name="Foto de perfil" /> })}
+                    handleOpenImage={() => handleOpenModal({ children: <ImagePopup link={imageProfile} name="Foto de perfil" /> })}
                     
                 />
 
@@ -47,7 +47,7 @@
                                 name={card.name}
                                 link={card.link}
                                 isLiked={card.isLiked}
-                                handleOpenImage={() => handleOpenModal({ children: <ModalImage link={card.link} name={card.name} /> })}
+                                handleOpenImage={() => handleOpenModal({ children: <ImagePopup link={card.link} name={card.name} /> })}
                                 handleLikeCard={() => handleLikeCard(card)}
                                 handleDeleteConfirmate={() => {
                                     handleOpenModal({
@@ -69,9 +69,9 @@
                 </ul>
                 
                 {modal && (
-                    <Modal onClose={handleCloseModal} title={modal.title}>
+                    <Popup onClose={handleCloseModal} title={modal.title}>
                         {modal.children}
-                    </Modal>
+                    </Popup>
                 )}
             </main>
         )

@@ -1,6 +1,6 @@
-import './ModalImage.css';
+import './ImagePopup.css';
 
-function ModalImage(props) {
+function ImagePopup(props) {
     const { link, name } = props;
     return (
          <>
@@ -14,4 +14,4 @@ function ModalImage(props) {
     );
 }
 
-export { ModalImage };
+export { ImagePopup };
